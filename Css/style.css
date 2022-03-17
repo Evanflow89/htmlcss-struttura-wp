@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+.head {
+    min-height: 120px;
+    width: 100%;
+    background-color: rgb(229, 121, 230);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.imageCont {
+min-height: 400px;
+width: 100%;
+background-color: rgb(225, 214, 122);
+margin-bottom: 30px;
+}
