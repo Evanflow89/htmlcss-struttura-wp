@@ -63,3 +63,11 @@ margin-bottom: 30px;
     width: 20%;
     margin-left: 20px;
 }
+
+.foot {
+    width: 100%;
+    min-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: rgb(136, 1, 254);
+}
